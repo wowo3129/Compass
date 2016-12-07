@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">指南针</string>
+    <string name="location_getting">正在获取数据</string>
+    <string name="east_longitude">东经</string>
+    <string name="west_longitude">西经</string>
+    <string name="south_latitude">南纬</string>    
+    <string name="north_latitude">北纬</string>   
+    <string name="direct_east">东</string>
+    <string name="direct_west">西</string>
+    <string name="direct_south">南</string>
+    <string name="direct_north">北</string>
+    <string name="direct_north_east">东北</string>
+    <string name="direct_south_east">东南</string>
+    <string name="direct_north_west">西北</string>
+    <string name="direct_south_west">西南</string>
+    <string name="allow_location_service">开启位置服务</string>   
+    <string name="allow_location_service_describe">打开位置服务可提高定位信息的准确性</string>
+    <string name="calibrate_compass">指南针可能受到干扰。请以8字形晃动手机以重新校准</string> 
+</resources>

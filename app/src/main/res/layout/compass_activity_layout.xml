@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/compass_background"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@drawable/compass_bg">
+	
+    <TextView 
+		android:id="@+id/compass_direction"  
+		android:layout_above="@+id/compass_center"  
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true"
+		android:layout_marginBottom="10dp"
+		android:visibility="invisible"
+		android:textColor="#ff2222"
+		android:textSize="26sp"/>
+               
+	<FrameLayout  
+	    android:id="@+id/compass_center"
+		android:layout_width="wrap_content"  
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"   >    
+		<ImageView
+		android:id="@+id/compass_dial"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:gravity="center"
+		android:src="@drawable/img_compass_dial_cali" />
+	
+		<ImageView
+		android:id="@+id/compass_pointer"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:gravity="center"
+		android:visibility="invisible"
+		android:src="@drawable/img_compass_pointer" />	
+
+		<TextView
+		android:id="@+id/compass_degree"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:textSize="20sp"
+		android:textColor="@android:color/white"
+		android:layout_gravity="center"
+		android:gravity="center"
+		android:visibility="invisible"/>	
+			
+		<TextView
+		android:id="@+id/compass_cali"
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		android:textSize="16sp"
+		android:textColor="#737577"
+		android:layout_gravity="center"	
+		android:layout_marginLeft="70dp"
+		android:layout_marginRight="70dp"	
+		android:text="@string/calibrate_compass"
+		android:gravity="center"/>	
+			
+	</FrameLayout> 
+ 
+	<TableLayout 
+	    android:layout_alignParentBottom="true"
+	    android:layout_marginBottom="20dp"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">		
+        <TableRow>
+            <TextView
+                android:id="@+id/latitude_text"                
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="#737577"/>
+            <TextView
+                android:id="@+id/longitude_text"                
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="#737577"/>
+        </TableRow>	
+        <TableRow>
+            <TextView
+                android:id="@+id/latitude"                 
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#737577"
+                android:gravity="center"/>
+            <TextView
+                android:id="@+id/longitude" 
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#737577"
+                android:gravity="center"/>
+        </TableRow>	        
+	</TableLayout>	
+	
+		
+</RelativeLayout>

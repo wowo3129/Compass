@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">compass</string>
+    <string name="east_longitude">East longitude</string>
+    <string name="west_longitude">West longitude</string>
+    <string name="south_latitude">South latitude</string>    
+    <string name="north_latitude">North latitude</string>    
+    <string name="direct_east">East</string>
+    <string name="direct_west">West</string>
+    <string name="direct_south">South</string>
+    <string name="direct_north">North</string>
+    <string name="direct_north_east">Northeast</string>
+    <string name="direct_south_east">Southeast</string>
+    <string name="direct_north_west">Northwest</string>
+    <string name="direct_south_west">Southwest</string>
+    <string name="allow_location_service">Allow location service</string>   
+    <string name="allow_location_service_describe">Allow location service to improve the data accuracy</string>
+    <string name="calibrate_compass">Compass interference. Wave the phone in figure 8 motion to re-calibrate the compass.</string> 
+    <string name="character_degree">°</string>
+    <string name="character_fen">′</string>
+    <string name="character_miao">″</string>
+</resources>
